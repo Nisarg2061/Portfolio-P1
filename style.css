@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "font-1";
+    src: url("https://db.onlinewebfonts.com/t/971c473a19b6bba1059ba6add6af78d7.eot");
+    src: url("https://db.onlinewebfonts.com/t/971c473a19b6bba1059ba6add6af78d7.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/971c473a19b6bba1059ba6add6af78d7.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/971c473a19b6bba1059ba6add6af78d7.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/971c473a19b6bba1059ba6add6af78d7.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/971c473a19b6bba1059ba6add6af78d7.svg#OCR A Extended V2")format("svg");
+}
+*{
+    color: #8E8CD8;
+    font-family: font-1;
+}
+header{
+    text-align: center;
+}
+body{
+    background-color: #000;
+    background-image: url("BG-2.jpg");
+    background-size:auto;
+}
+a{
+    color: aquamarine;
+    text-decoration: none;
+}
+h1{
+    color: #8E8CD8;
+}
+button{
+    color: #000;
+    background-color: aquamarine;
+}
+#foot{
+    background-color: #1B1B1B;
+    display: inline-block;
+    padding: 0.5% 1%;
+    color: aquamarine;
+    border: 1px solid aquamarine;
+    margin-top: 0.2em;
+}
+footer{
+    text-align: center;
+    color : aquamarine;   
+}
+main{
+    text-align: center;
+    border: 1px solid aquamarine;
+    width: auto;
+    height: 100%;
+}
+.underline{
+    text-decoration: underline;
+    color: aquamarine;
+}
+.bar-m{
+    height: 2.8em;
+    text-align: center;
+    text-transform:uppercase;
+    padding: 0% 0%;
+    display: inline;
+}
+.nav{
+    padding-right: 2%;
+}
+.edu-div{
+    text-align:  center;
+    width: 19em;
+    height: 5em;
+    display: inline-block;
+    border: 2px solid aquamarine;
+    background-color: #1B1B1B;
+    padding: 0% 2%;
+    margin: 10px 0px;
+}
+#edu-div-l{
+    text-align:  center;
+    width: 13em;    
+    height: fit-content;
+    display: inline-block;
+    border: 2px solid aquamarine;
+    background-color: #1B1B1B;
+    margin: 10px 0px;
+}
+.edu-hr{
+    width: 55%;
+    color: aquamarine;
+}
+#logo{
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+}
+.pro-d{
+    height: 21em;
+    width: 20em;
+    border: 2px solid aquamarine;
+    display: inline-table;
+    margin: 10px;
+    padding: 1%;
+    background-color: #1B1B1B;
+    text-align: center;
+}
+.repo{
+    text-decoration: underline;
+}
+
+#pro-form{
+    height: 9.5em;
+    width: 20em;
+    border: 2px solid aquamarine;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    background-color: #1B1B1B;
+}
+.pro-p{
+    width: 75%;
+    color: #8E8CD8;
+}
+.exp-div{
+    width: auto;
+    border: 2px solid aquamarine;
+    display: inline-table;
+    margin: 10px;
+    padding: 0% 2%;
+    background-color: #1B1B1B;
+    text-align: left;
+}
+.exp-div-2{
+    height: 0.5em;
+    width: 17em;
+    border: 2px solid aquamarine;
+    display: inline-block;
+    margin: 10px;
+    padding: 1%;
+    background-color: #1B1B1B;
+    text-align: center;
+    padding-top: 0.1em;
+    padding-bottom: 2.5em;
+}
+.exp-list-resp{
+    margin-left: 2%;
+}
+.exp-date{
+    color: aquamarine;
+}
+.exp-comp{
+    color: aquamarine;
+}
+.pro-headings{
+    color: aquamarine;
+}
