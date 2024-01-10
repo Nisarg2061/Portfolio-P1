@@ -91,14 +91,8 @@ main{
     border-radius: 50%;
 }
 .pro-d{
-    height: 21em;
-    width: 20em;
-    border: 2px solid aquamarine;
-    display: inline-table;
-    margin: 10px;
-    padding: 1%;
-    background-color: #1B1B1B;
     text-align: center;
+    height: 20em;
 }
 .repo{
     text-decoration: underline;
@@ -149,4 +143,47 @@ main{
 }
 .pro-headings{
     color: aquamarine;
+}
+.slider{
+    position: relative;
+    border: aquamarine;
+    margin: 2% 25%;
+}
+.slides {
+    display: none;
+    text-align: center;
+}
+.dot-container {
+    text-align: center;
+    padding: 20px;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #8E8CD8;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: aqua;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .5} 
+    to {opacity: 1}
+  }
+.slider_pro{
+    border: 2px solid aquamarine;
+    margin: 0% 25%;
+    height: 26em;
+    width: auto;
+    margin-top: 2%;
+    background-color: #1B1B1B;
 }

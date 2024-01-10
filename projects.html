@@ -3,62 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <title>Assignment</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="bar-m"><p><a href="/index.html" class="nav">home</a> <a href="/experience.html" class="nav">experiences</a> <a href="/projects.html" class="nav"><b class="underline">projects</b></a> <a href="/education.html" class="nav">education</a></p></div>
+        <div class="bar-m">
+            <p>
+                <a href="/index.html" class="nav">
+                    home
+                </a> 
+                <a href="/experience.html" class="nav">
+                    experiences
+                </a>
+                <a href="/projects.html" class="nav">
+                    <b class="underline">projects</b>
+                </a> 
+                <a href="/education.html" class="nav">
+                    education
+                </a>
+            </p>
+        </div>
     </header>
         <hr>
-        <main>
+    <main>
+        <div class="slider_pro">
+            <div class="slider">
+                <div class="slides fade">
+                    <div class="pro-d">
+                        <h1 class="pro-headings">Project-0</h1>
+                        <h2>{Portfolio Website}</h2>
+                        <p style="text-align: justify;">
+                            Tho not the actual first project but this is my portfolio website showcasing my skills in HTML and CSS. 
+                        </p>
+                        <p>
+                            Skills Gained: HTML, CSS
+                        </p>
+                        <a href="https://github.com/Nisarg2061/Portfolio-P1" class="repo" target="_main">github repo</a>
+                    </div>
+                </div>
+                <div class="slides fade">
+                    <div class="pro-d">
+                        <h1 class="pro-headings">Project-1</h1>
+                        <h2>{Inventory Managemaent Website}</h2>
+                        <p style="text-align: justify;">
+                            This website was built by our team of 4 people for a esence stick factory for thier inventory management, vendor list and bill generation and storing all the data.
+                        </p>
+                        <p style="text-align: justify;">
+                            Skills Gained: HTML, CSS, JavaScript, Angular, Flask, MySQL
+                        </p>
+                        <a href="https://github.com/Nisarg2061/KGNS" class="repo" target="_main">github repo</a>
+                    </div>
+                </div>
+                <div class="slides fade">
+                    <div class="pro-d">
+                        <h1 class="pro-headings">Project-2[Comming Soon]</h1>
+                        <h2>{File Monitoring System}</h2>
+                        <p style="text-align: justify;">
+                            This scripts runs directly on computer to monitor any and all
+                            the changes made in system. This project is being developed to be used to monitor remotely. 
+                        </p>
+                        <p style="text-align: justify;">
+                            Skills Gained: Linux, Python, Scripting, CLI, Git, Github
+                        </p>
+                        <a href="#" class="repo" target="_main">github repo</a>
+                    </div>
+                </div>
+                <div class="slides fade">
+                    <div class="pro-d">
+                        <h1 class="pro-headings">Project-X</h1>
+                        <h2>{XXXXXXXX}</h2>
+                        <p style="text-align: justify;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptatibus soluta ea omnis eos fugiat cum alias sapiente, aliquid maxime recusandae velit veniam eum, repudiandae molestias minima quia dolor natus! 
+                        </p>
+                        <p style="text-align: justify;">
+                            XXXXXXXX
+                        </p>
+                        <a href="#" class="repo" target="_main">github repo</a>
+                    </div>
+                </div>
+                <div class="slides fade">
+                    <div class="pro-d">
+                        <h1 class="pro-headings">Project-Y</h1>
+                        <h2>{XXXXXXXXX}</h2>
+                        <p style="text-align: justify;">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam quas aperiam est voluptatibus, neque excepturi, voluptatum sunt minus quia repellendus earum eum incidunt accusamus suscipit sint temporibus aut. Quibusdam, repudiandae. 
+                        </p>
+                        <p style="text-align: justify;">
+                            XXXXXXXXX
+                        </p>
+                        <a href="#" class="repo" target="_main">github repo</a>
+                    </div>
+                </div>
+            </div>
             <br>
-            <div class="pro-d">
-                <h1 class="pro-headings">Project-0</h1>
-                <h2>{Portfolio Website}</h2>
-                <p style="text-align: justify;">
-                    Tho not the actual first project but this is my portfolio website showcasing my skills in HTML and CSS. 
-                </p>
-                <p>
-                    Skills Gained: HTML, CSS
-                </p>
-                <a href="#" class="repo" target="_main">github repo</a>
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+                <span class="dot" onclick="currentSlide(5)"></span> 
             </div>
-            <div class="pro-d">
-                <h1 class="pro-headings">Project-1</h1>
-                <h2>{Inventory Managemaent Website}</h2>
-                <p style="text-align: justify;">
-                    This website was built by our team of 4 people for a esence stick factory for thier inventory management, vendor list and bill generation and storing all the data.
-                </p>
-                <p style="text-align: justify;">
-                    Skills Gained: HTML, CSS, JavaScript, Angular, Flask, MySQL
-                </p>
-                <a href="#" class="repo" target="_main">github repo</a>
-            </div>
-            <div class="pro-d">
-                <h1 class="pro-headings">Project-2</h1>
-                <h2>{File Monitoring System}</h2>
-                <p style="text-align: justify;">
-                    This scripts runs directly on computer to monitor any and all
-                    the changes made in system. This project is being developed to be used to monitor remotely. 
-                </p>
-                <p style="text-align: justify;">
-                    Skills Gained: Linux, Python, Scripting, CLI, Git, Github
-                </p>
-                <a href="#" class="repo" target="_main">github repo</a>
-            </div>
-            <br>
-            <div id="pro-form">
-                <p><b class="pro-headings">Wish to connect?</b></p>
-                <input type="text" placeholder="Enter name" class="pro-p"><br><br>
-                <input type="text" placeholder="Email" class="pro-p"><br><br>
-                <button>SEND</button>
-            </div>
-            <br>
-        </main>
+        </div>
+        
+        <br>
+        <div id="pro-form">
+            <!-- Form doesnot work -->
+            <p><b class="pro-headings">Wish to connect?</b></p>
+            <input type="text" placeholder="Enter name" class="pro-p"><br><br>
+            <input type="text" placeholder="Email" class="pro-p"><br><br>
+            <button>SEND</button>
+        </div>
+        <br>        
+    </main>
         <hr>
-        <footer >
-            <p id="foot">Contact : nisargkhodke@gmail.com</p>
-        </footer>
+    <footer >
+        <p id="foot">Contact : nisargkhodke@gmail.com</p>
+    </footer>
+
+    <script src="/script.js"></script>
 </body>
 </html>
