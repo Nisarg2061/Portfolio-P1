@@ -147,7 +147,7 @@ main{
 .slider{
     position: relative;
     border: aquamarine;
-    margin: 2% 25%;
+    margin: 2% 15%;
 }
 .slides {
     display: none;
@@ -183,7 +183,7 @@ main{
     border: 2px solid aquamarine;
     margin: 0% 25%;
     height: 26em;
-    width: auto;
+    width: 45em;
     margin-top: 2%;
     background-color: #1B1B1B;
 }
